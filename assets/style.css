@@ -4,7 +4,8 @@
   box-sizing: border-box;
 }
 
-body {
+body { 
+  background-color: #000;
   font-family: 'Heebo', sans-serif;
   display: flex;
   align-items: center;
@@ -13,3 +14,17 @@ body {
   overflow: hidden;
   margin: 0;
 }
+
+button {
+  background-color: purple;
+  color: #fff;
+  border: 1px solid purple;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding: 20px 30px;
+  overflow: hidden;
+  margin: 10px 0;
+  position: relative;
+}
+
